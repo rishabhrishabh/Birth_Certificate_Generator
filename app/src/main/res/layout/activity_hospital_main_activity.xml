@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCDD2"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Fill details of  child"
+        android:textColor="#ce3232"
+        android:textSize="30sp"
+        android:typeface="serif" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/rn"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Registration_number(format:hospital name/number)"
+         />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Temporary Name of child"
+         />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/father"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Father's Name"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/mother"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Mother's Name"
+        />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/sex"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Sex"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/date"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Date and time of birth"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/place"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Place of birth"
+        />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/phone"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="phone number"
+        android:inputType="phone" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/adress"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Address"
+         />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Submit"
+        android:textColor="#fff" />
+</LinearLayout>

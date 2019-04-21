@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Starting_page"
+    android:gravity="center">
+
+
+
+    <Button
+        android:id="@+id/hospital_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Hospital registered candidate" />
+
+    <Button
+        android:id="@+id/registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Registered candidates" />
+
+    <Button
+        android:id="@+id/non_registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Non-registered candidates" />
+
+    <Button
+        android:id="@+id/correction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Candidates applied for correction " />
+</LinearLayout>
